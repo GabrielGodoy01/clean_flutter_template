@@ -1,0 +1,90 @@
+{
+    "stateNameSchema": "{schema, select, APPROVED{Aprovado} PENDING{Pendente} REJECTED{Rejeitado} other{Other}}",
+    
+
+    "homePageTitle": "Bem-vindo ao Clean Flutter Template",
+    "homePageSubtitle": "Explore as funcionalidades do template:",
+
+    "createPageTitle": "Crie um novo usuário",
+    "registerTitle": "Cadastrar",
+
+    "fieldName": "Nome",
+    "fieldEmail": "Email",
+    "fieldPassword": "Senha",
+    "fieldId": "ID",
+    "fieldHintName": "Gabriel de Godoy Braz",
+    "fieldHintEmail": "exemplo@exemplo.com",
+    "fieldHintPassword": "🤫",
+    "fieldHintId": "Número de identificação do usuário",
+
+    "fieldRequired": "Campo é obrigatório",
+    "fieldMinLength": "O campo deve ter pelo menos 6 caracteres",
+    "fieldInvalidEmail": "O campo deve ser um endereço de e-mail válido",
+
+    "successCreateUser": "Usuário {successCreateUser} criado com sucesso",
+    "@successCreateUser" : {
+        "placeholders": {
+            "placeholders": {
+                "successCreateUser": {}
+            }
+        }
+    },
+
+    "getPageTitle": "Procure um usuário",
+    "searchTitle": "Procurar",
+
+    "updatePageTitle": "Dê update em um usuário",
+    "updateTitle": "Update",
+
+    "deletePageTitle": "Delete um usuário",
+    "deleteTitle": "Deletar",
+
+    "getAllPageTitle": "Lista de todos os usuários",
+
+    "successUpdateUser": "Usuário {successUpdateUser} updated com sucesso",
+    "@successUpdateUser" : {
+        "placeholders": {
+            "placeholders": {
+                "successUpdateUser": {}
+            }
+        }
+    },
+
+    "successDeleteUser": "Usuário {successDeleteUser} deletado com sucesso",
+    "@successDeleteUser" : {
+        "placeholders": {
+            "placeholders": {
+                "successDeleteUser": {}
+            }
+        }
+    },
+
+    "entityErrorMessage": "Campo {entityErrorMessage} não é válido",
+    "@entityErrorMessage" : {
+        "placeholders": {
+            "placeholders": {
+                "restaurantName": {}
+            }
+        }
+    },
+
+    "emptyListErrorMessage": "Lista vazia, itens não encontrados para essa requisição",
+
+    "requestErrorMessage": "{message}",
+    "@requestErrorMessage" : {
+        "placeholders": {
+            "placeholders": {
+                "restaurantName": {}
+            }
+        }
+    },
+
+    "noItemsFoundErrorMessage": "Itens não encontrados para: {message}",
+    "@noItemsFoundErrorMessage" : {
+        "placeholders": {
+            "placeholders": {
+                "restaurantName": {}
+            }
+        }
+    }
+}
